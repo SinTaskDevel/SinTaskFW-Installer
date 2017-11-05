@@ -138,7 +138,9 @@
     /* Running ---
      */
 
-	$__DOC_ROOT__ = $_SERVER["DOCUMENT_ROOT"];
+	$__CENTER__		= preg_replace("!${_SERVER['SCRIPT_NAME']}$!", '', $_SERVER['SCRIPT_FILENAME']);
+	$__BASE_DIR__	= str_replace("\\", "/", __DIR__);
+	$__DOC_ROOT__	= $__BASE_DIR__;
 	
 	$sintaskGet = $_GET["to"];
 	if($sintaskGet == "step1") {
