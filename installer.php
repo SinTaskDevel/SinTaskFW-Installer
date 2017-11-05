@@ -564,7 +564,7 @@
 				                    }   
 				                }
 				                catch (e) {
-				                    logMessage("Error mengunduh SinTaskFW "+e);
+									/* Kosong */
 				                }
 				            };
 
