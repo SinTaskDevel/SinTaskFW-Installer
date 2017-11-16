@@ -6,6 +6,9 @@
 
 	/* Checker ---
 	 */
+	session_destroy();
+	error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
+	 
 	$__CHECKER__ 		= 0;
 	$__CHECKER_MSG__	= [];
 
