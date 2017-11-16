@@ -1,3 +1,6 @@
+<p align="center"><img height="200px" src="https://fw.sintask.com/images/logo/sintask_logo_notlogin_.png"/></p>
+<p align="center">Micro Framework</p>
+
 ## SinTaskFW Installer
 Install Cepat — SinTaskFW dapat anda install dengan hanya menggunakan 1 file saja, anda dapat menggunduh installer SinTaskFW pada link [URL ini](https://fw.sintask.com/direct/dl/installer), hasil unduhan akan menghasilkan file ``installer.php``
 
